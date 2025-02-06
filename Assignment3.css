@@ -1,0 +1,42 @@
+h1 {
+    color: #ffd8d8;
+    background-color: #560f0f;
+}
+
+h2 {
+    color: #dfdfdf;
+    background-color: #2d2d2d;
+}
+
+#BlueOnWhite {
+    color: #16187aaf;
+    background-color: whitesmoke;
+}
+
+#WhiteOnBlue {
+    color: whitesmoke;
+    background-color: #5d60fd;
+}
+
+#Info {
+    color: azure;
+    background-color: rgb(214, 56, 56);
+}
+
+.LightBackground {
+    background-color: #d8bebd;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
