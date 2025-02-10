@@ -1,0 +1,50 @@
+h1 {
+    color: whitesmoke;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h4 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+h5 {
+    color: red;
+}
+
+.LBBack {
+    background-color: #969dff;
+}
+
+.Yback {
+    background-color: yellow;
+}
+
+#LGBack {
+    background-color: lightgreen;
+}
+
+#OrangeText {
+    color: orange;
+}
+
+#RedText {
+    color: red;
+}
+
+a {
+    color: rgb(16, 107, 36);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(214, 27, 27);
+    text-decoration: underline;
+}
