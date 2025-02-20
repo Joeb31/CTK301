@@ -1,0 +1,84 @@
+.MainBackground {
+    background-image: url(a5bg.png);
+    background-repeat: repeat;
+}
+
+h1 {
+   font-family: Arial, Helvetica, sans-serif; 
+   padding: 30px;
+   margin: 10px;
+   background-color: rgb(255, 255, 255);
+   position: relative; 
+   right: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: block;
+    border-bottom: 10px;
+    border-color: black;
+    background-color: white;
+    padding: 12px;
+}
+
+nav li {
+    margin: 10px;
+    margin-right: 30px;
+    width: 200px;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    position: relative; 
+    right: 50px;
+  }
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: rgb(18, 18, 250);
+    color:  white;
+    text-decoration: none;
+}
+
+.MainStyle {
+    background-color: white;
+    padding: 20px;
+    display: block;
+    margin-top: 10px;
+}
+
+.PStyle {
+    text-align: justify;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color:  red;
+    text-decoration: underline;
+}
+
+.FooterStyle {
+    background-color: darkblue;
+    font-family: Verdana, Tahoma, sans-serif;
+    border: 3px solid white;
+    color: white;
+    font-style: italic;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
