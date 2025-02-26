@@ -1,0 +1,109 @@
+html {
+    background-image: url(a62.png);
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    background-color: #cecece;
+}
+
+Header {
+    grid-column: span 12;
+    background-color: #000000;
+    color: whitesmoke;
+    padding-left: 1em;
+    margin: 1em 1em -1em 1em;
+    font-family:  Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+nav {
+    grid-column: span 3;
+}
+  
+nav ul {
+    list-style-type: none;
+    width: 3fr;
+}
+  
+nav li a {
+    display: block;
+    background-color: rgba(255, 0, 0, 0.826);
+    border: 1px solid black;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: -24px;
+    color: white;
+    text-decoration: none;
+    font-family:  Helvetica, sans-serif;
+}
+
+nav a:hover {
+    background-color: #bc1010;
+    color: whitesmoke;
+  }
+
+main {
+    grid-column: span 9;
+    border-width: 2px;
+    padding: 1em;
+    margin-top: -1em;
+}
+
+main a {
+    text-decoration: none;
+    color: red;
+    font-weight: 1000;
+}
+
+main a:hover {
+    color: #0e29f9;
+    text-decoration: underline;
+    font-weight: 1000;
+  }
+
+main img {
+    float: left;
+    border: solid 3px;
+    padding: 1em;
+    margin-right: 1em;
+  }
+
+h2 {
+    font-family:  Helvetica, sans-serif;
+    border-bottom: solid 3px;
+    padding-bottom: 5px;
+}
+
+.Boldtxt {
+    font-weight: 1000;
+
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: #ff0000;
+    color: whitesmoke;
+    padding: 1em;
+    border-top: solid rgb(0, 0, 0);
+    border-width: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+  }
