@@ -1,0 +1,145 @@
+body {
+    background-color: #cecece;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main a:hover {
+    color: rgb(192, 108, 108);
+}
+
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    border-bottom: solid 4px;
+    margin-bottom: -4px;
+    border-color: #212ab3;
+}
+
+header h1 a {
+    color: #8cb9fd;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: aliceblue;
+}
+
+nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+
+}
+
+nav li {
+    display: inline-block;
+    width: 225px;
+  }
+  
+nav a {
+    color: #82c7ff;
+    display: block;
+    border-right: 4px solid;
+    border-color: #212ab3;
+    padding: 15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-left: -1em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgb(255, 255, 255);
+    
+}
+
+main {
+    grid-column: span 12;
+    border-top: solid 4px;
+    border-color: #212ab3;
+}
+
+h2  {
+    color: #1335ae;
+}
+
+main h2 {
+    border-bottom: solid 3px;
+}
+
+main p {
+    padding: 5px;
+}
+ 
+
+p a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+footer {
+    grid-column: span 12;
+    border-top: solid 4px;
+    border-color: #212ab3;
+    background-color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    background-color: #b8b3b3;
+    border: solid 4px;
+    border-color: #212ab3;
+
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    margin: 0;
+    padding: 0;
+  }
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    margin: 0;
+    padding: 0;
+}
+
+#Left {
+    background-color: #b6d7ff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#Right {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+#imgright {
+    float: right;
+}
+
+#imgleft {
+    float: left;
+}
+
+main img {
+    border: solid 4px;
+    border-color: #212ab3;
+}
+
