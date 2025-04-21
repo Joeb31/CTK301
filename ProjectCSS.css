@@ -96,10 +96,6 @@ footer {
     padding: 0;
   }
 
-#imgWrap {
-    background-color: #86aa91;
-}
-
 #Preview {
     background-color: #86aa91;
     display: grid;
@@ -107,3 +103,21 @@ footer {
     color: #0c4519;
     font-weight: bold;
 }
+
+#myCarousel {
+    background: #86aa91;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+#myCarousel .f-carousel__slide {
+    text-align: center;
+    background: #86aa91;
+  }
+
+#myCarousel img {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+  }
