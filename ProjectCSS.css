@@ -98,7 +98,6 @@
     border-radius: 10px; 
     background-color: #2e3934; 
   }
-  
 
   footer {
     position: fixed;
@@ -120,14 +119,16 @@
   .social-btn {
     display: inline-block;
     color: #d8e6dc;
-    margin: 0 10px;
-    font-size: 1.5rem;
-    transition: color 0.3s;
+    margin: 0 12px;
+    font-size: 1.8rem;
+    transition: color 0.3s, transform 0.2s;
   }
   
   .social-btn:hover {
     color: #a7d9b7;
+    transform: scale(1.1);
   }
+  
   
   .home-buttons {
     max-width: 1200px;
@@ -143,9 +144,15 @@
     background-color: #3b7a4b;
     color: #d8e6dc;
     text-align: center;
-    padding: 60px 20px;
+    padding: 40px 20px 20px 20px;
     border-radius: 12px;
     text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 450px;
   }
   
   .home-box:hover {
@@ -156,11 +163,102 @@
   .home-box h2 {
     font-family: "Teko", sans-serif;
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .home-box p {
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
   }
   
+  .home-image {
+    width: auto;
+    max-width: 80%;
+    max-height: 200px;
+    object-fit: contain;
+    border: 3px solid #2d3730;
+    border-radius: 10px;
+    background-color: #2d3730;
+    margin-top: 20px;
+  }
+  
+  .work-layout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+    background-color: #86aa91;
+    color: #0c4519;
+    font-weight: bold;
+  }
+  
+  .text-container {
+    max-width: 300px;
+    min-height: 500px;
+    background-color: #3e5f4e; 
+    color: #f0f8f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .text-container p {
+    margin: 0;
+    line-height: 1.6;
+  }
+  
+  .image-container {
+    flex: 0 0 auto;
+    max-width: 300px;
+  }
+  
+  .chef-image {
+    width: 100%;
+    height: auto;
+    border: 4px solid #2d3730;
+    border-radius: 12px;
+    background-color: #2d3730;
+  }
+
+  .music-works {
+    padding: 40px;
+    background-color: #2d3730;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #dbf2e2;
+  }
+  
+  .track-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .track-row h3 {
+    color: #c5f8d0;
+    font-weight: bold;
+    font-family: "Teko", sans-serif;
+    font-size: 1.6em;
+    margin-bottom: 4px; 
+    border-bottom: 2px solid #c5f8d0;
+    padding-bottom: 2px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .track-row audio {
+    width: 100%;
+    max-width: 600px;
+    background-color: #4f5b52;
+    border-radius: 8px;
+  }
